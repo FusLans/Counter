@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         plus.tintColor = .red
         zero.tintColor = .green
         countLable.text = String(Counter)
+        history.text = "История изменеий \n"
+        history.isEditable = false
     }
     
   
